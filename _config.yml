@@ -1,0 +1,30 @@
+# _config.yml
+title: Hello World
+description: Data Scientist | First principles thinker | Blog
+author: Zak Boston
+email: zak.boston@pm.me
+
+remote_theme: pages-themes/midnight@v0.2.0
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+header_pages:
+  - index.html        
+  - about.md          
+  - code-problems.md  
+
+# Posts settings (your blog entries)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /:year/:month/:day/:title.html
+
+show_excerpts: true  # shows preview on homepage
