@@ -1,6 +1,7 @@
 ---
 # No title here on purpose → browser tab uses the site.title from _config.yml
 # If you WANT a different front-matter title, add: title: "Custom Home Title"
+permalink: /home/
 layout: default
 ---
 
