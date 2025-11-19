@@ -1,4 +1,6 @@
 /* Beautiful tag badges */
+@import "{{ site.theme }}";
+
 .tag {
   display: inline-block;
   padding: 4px 10px;
@@ -22,3 +24,8 @@
 .tag-cpp      { background: #f34b7d; }
 .tag-one-pass { background: #6f42c1; }
 .tag-dp       { background: #d73a49; }
+
+// Add any other custom overrides here, e.g. bigger hero text
+.home-header h1 {
+  font-size: 3.5rem;
+}
