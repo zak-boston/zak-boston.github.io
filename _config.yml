@@ -28,4 +28,3 @@ defaults:
       permalink: /:year/:month/:day/:title.html
 
 show_excerpts: true  # shows preview on homepage
-rebuild_trigger: 20251119-3
