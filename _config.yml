@@ -3,6 +3,7 @@ title: Hello World
 description: Data Scientist | First principles thinker | Dad
 author: Zak Boston
 email: zak.boston@pm.me
+url: zak-boston.github.io
 
 remote_theme: pages-themes/midnight@v0.2.0
 
@@ -11,6 +12,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-seo-tag
 
 header_pages:
   - index.md     
@@ -26,5 +28,19 @@ defaults:
     values:
       layout: "post"
       permalink: /:year/:month/:day/:title.html
+      author: Zak Boston
+      categories: euler
 
 show_excerpts: true  # shows preview on homepage
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
