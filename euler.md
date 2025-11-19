@@ -9,7 +9,7 @@ layout: default
 A running list of problems I’ve crushed, with explanations and clean solutions.
 
 {% raw %}{% for post in site.posts %}
-{% if post.categories contains 'coding-problem' %}
+{% if post.categories contains 'euler' %}
 - **[{{ post.title }}]({{ post.url }})** – {{ post.date | date: "%b %d, %Y" }}  
   {{ post.excerpt | strip_html | truncate: 160 }}
 {% endif %}
