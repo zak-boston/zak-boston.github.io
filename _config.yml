@@ -1,6 +1,6 @@
 # _config.yml
 title: Hello World
-description: Data Scientist | First principles thinker | Blog
+description: Data Scientist | First principles thinker | Dad
 author: Zak Boston
 email: zak.boston@pm.me
 
@@ -15,7 +15,7 @@ plugins:
 header_pages:
   - index.md     
   - about.md          
-  - code-problems.md  
+  - euler.md  
 
 # Posts settings (your blog entries)
 defaults:
