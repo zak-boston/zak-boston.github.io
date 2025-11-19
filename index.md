@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="home-header" style="text-align: center; padding: 4rem 1rem; margin-bottom: 3rem;">
-  <h1>Hi, I’m {{ site.author | default: "Your Name" }}</h1>
+  <h1>Hi, I’m {{ site.author | default: "Zak Boston" }}</h1>
   <p style="font-size: 1.3rem; opacity: 0.9;">
     Data Scientist • First Principles Thinker • Forever Curious
   </p>
@@ -39,7 +39,7 @@ title: Home
 {% endfor %}
 
 <div style="text-align: center; margin-top: 3rem;">
-  <a href="/code-problems" style="font-size: 1.2rem; color: #58a6ff;">
+  <a href="/euler" style="font-size: 1.2rem; color: #58a6ff;">
     See all {{ site.posts.size }} solutions →
   </a>
 </div>
